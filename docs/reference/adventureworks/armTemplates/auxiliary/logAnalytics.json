@@ -58,7 +58,7 @@
                         "value": "slr-law"
                     },
                     "automationAccountName": {
-                        "value": "[concat(parameters('topLevelManagementGroupPrefix'), '-a-', parameters('managementSubscriptionId'))]"
+                        "value": "slr-aa"
                     },
                     "workspaceRegion": {
                         "value": "[deployment().location]"
