@@ -10,7 +10,7 @@
         },
         "workspaceName": {
             "type": "string",
-            "defaultValue": "slr-law"
+            "defaultValue": "slavar-law"
         },
         "workspaceRegion": {
             "type": "string",
@@ -90,7 +90,7 @@
         }
     },
     "variables": {
-        "laResourceId": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slr-law'))]",
+        "laResourceId": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slavar-law'))]",
         "solutions": {
             "security": {
                 "name": "[concat('Security', '(', parameters('workspaceName'), ')')]",

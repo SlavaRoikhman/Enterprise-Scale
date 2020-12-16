@@ -223,7 +223,7 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'))]",
                 "parameters": {
                     "logAnalytics": {
-                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slr-law'))]"
+                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slavar-law'))]"
                     },
                     "logsEnabled": {
                         "value": "True"
@@ -263,7 +263,7 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'))]",
                 "parameters": {
                     "logAnalytics_1": {
-                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slr-law'))]"
+                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slavar-law'))]"
                     }
                 }
             }
@@ -300,7 +300,7 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'))]",
                 "parameters": {
                     "logAnalytics_1": {
-                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slr-law'))]"
+                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slavar-law'))]"
                     }
                 }
             }
@@ -337,7 +337,7 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'))]",
                 "parameters": {
                     "logAnalytics": {
-                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slr-law'))]"
+                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slavar-law'))]"
                     }
                 }
             }
@@ -374,7 +374,7 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'))]",
                 "parameters": {
                     "logAnalytics": {
-                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slr-law'))]"
+                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slavar-law'))]"
                     }
                 }
             }
@@ -411,7 +411,7 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'))]",
                 "parameters": {
                     "logAnalytics": {
-                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slr-law'))]"
+                        "value": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slavar-law'))]"
                     }
                 }
             }

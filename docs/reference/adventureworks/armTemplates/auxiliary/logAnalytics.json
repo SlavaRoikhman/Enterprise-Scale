@@ -55,7 +55,7 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'), '-management')]",
                 "parameters": {
                     "workspaceName": {
-                        "value": "slr-law"
+                        "value": "slavar-law"
                     },
                     "automationAccountName": {
                         "value": "slr-aa"
