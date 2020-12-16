@@ -55,7 +55,7 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'), '-management')]",
                 "parameters": {
                     "workspaceName": {
-                        "value": "[concat(parameters('topLevelManagementGroupPrefix'), '-la-', parameters('managementSubscriptionId'))]"
+                        "value": "slr-law"
                     },
                     "automationAccountName": {
                         "value": "[concat(parameters('topLevelManagementGroupPrefix'), '-a-', parameters('managementSubscriptionId'))]"
@@ -67,7 +67,7 @@
                         "value": "[deployment().location]"
                     },
                     "rgName": {
-                        "value": "[concat(parameters('topLevelManagementGroupPrefix'), '-mgmt')]"
+                        "value": "slr-mgmt-rg"
                     },
                     "retentionInDays": {
                         "value": "[parameters('retentionInDays')]"
