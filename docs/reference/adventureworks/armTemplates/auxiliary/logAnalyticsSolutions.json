@@ -10,7 +10,7 @@
         },
         "workspaceName": {
             "type": "string",
-            "defaultValue": "slavar-law"
+            "defaultValue": "SCED-MGMT-CACN-LAW"
         },
         "workspaceRegion": {
             "type": "string",
@@ -90,7 +90,7 @@
         }
     },
     "variables": {
-        "laResourceId": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'slr-mgmt-rg', '/providers/Microsoft.OperationalInsights/workspaces/', 'slavar-law'))]",
+        "laResourceId": "[toLower(concat('/subscriptions/', parameters('managementSubscriptionId'), '/resourceGroups/', 'SCED-MGMT-CACN-MGMT-RGP', '/providers/Microsoft.OperationalInsights/workspaces/', 'SCED-MGMT-CACN-LAW'))]",
         "solutions": {
             "security": {
                 "name": "[concat('Security', '(', parameters('workspaceName'), ')')]",
@@ -139,7 +139,7 @@
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2018-05-01",
             "name": "[take(concat('EntScale-', 'solutions-', guid(deployment().name)), 63)]",
-            "resourceGroup": "slr-mgmt-rg",
+            "resourceGroup": "SCED-MGMT-CACN-MGMT-RGP",
             "properties": {
                 "mode": "Incremental",
                 "template": {

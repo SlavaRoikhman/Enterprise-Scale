@@ -55,10 +55,10 @@
                 "scope": "[concat('/providers/Microsoft.Management/managementGroups/', parameters('topLevelManagementGroupPrefix'), '-management')]",
                 "parameters": {
                     "workspaceName": {
-                        "value": "slavar-law"
+                        "value": "SCED-MGMT-CACN-LAW"
                     },
                     "automationAccountName": {
-                        "value": "slr-aa"
+                        "value": "SCED-MGMT-CACN-AAA"
                     },
                     "workspaceRegion": {
                         "value": "[deployment().location]"
@@ -67,7 +67,7 @@
                         "value": "[deployment().location]"
                     },
                     "rgName": {
-                        "value": "slr-mgmt-rg"
+                        "value": "SCED-MGMT-CACN-MGMT-RGP"
                     },
                     "retentionInDays": {
                         "value": "[parameters('retentionInDays')]"
